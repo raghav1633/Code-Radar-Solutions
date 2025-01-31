@@ -2,8 +2,8 @@
 
 
 int main() {
-    int n;
-    scanf("%d",&n);
-    printf("Ypu entered : %d",n);
+    float n;
+    scanf("%f",&n);
+    printf("Ypu entered : %.2f",n);
     return 0;
 }
