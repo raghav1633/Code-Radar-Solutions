@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char name[10];
-    scanf("%s",&name);
+    char name[]=scanf("%s",&name);
     printf("You entered: %s",name);
     return 0;
 }
