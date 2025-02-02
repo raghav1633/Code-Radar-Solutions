@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main() {
-  char ch;
-    scanf(" %c", &ch);
-      printf("ASCII Value: %d\n", ch);
+  char inputChar;
+    scanf(" %c", &inputChar);
+      printf("ASCII Value: %d\n", inputChar);
         return 0;
         }
 
