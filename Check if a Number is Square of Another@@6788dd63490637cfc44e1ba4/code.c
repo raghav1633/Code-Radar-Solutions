@@ -1,8 +1,15 @@
+
 #include <stdio.h>
-#include <math.h>
+
 int main() {
-    float a,b;
-    scanf("%f %f",&a,&b);
-    printf("%s",sqrt(a)==b?"Yes":"No");
-    return 0;
-}
+  int num1, num2;
+    scanf("%d %d", &num1, &num2);
+      if (num1 == num2 * num2) {
+          printf("Yes");
+            } else {
+                printf("No");
+                  }
+                    return 0;
+                    }
+
+                    
