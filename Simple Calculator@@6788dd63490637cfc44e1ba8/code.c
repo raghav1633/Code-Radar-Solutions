@@ -2,20 +2,20 @@
 
 int main() {
    int a,b;
-   char s;
-   scanf("%d %d %c",&a,&b,&s);
-   if(s=="+"){
+   char opera;
+   scanf("%d %d %c",&a,&b,&opera);
+   if(opera=="+"){
     printf("%d",a+b);
    }
-   else if(s=="-"){
+   else if(opera=="-"){
         printf("%d",a-b);
 
    }
-   else if(s=="*"){
+   else if(opera=="*"){
         printf("%d",a*b);
 
    }
-   else if(s=="/"){
+   else if(opera=="/"){
         printf("%d",a/b);
 
    }
