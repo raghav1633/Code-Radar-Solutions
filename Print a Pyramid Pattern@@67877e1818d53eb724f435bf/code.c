@@ -8,8 +8,8 @@ int main() {
             printf(" ");
         }
         // for stars
-        for(int k=0,l=0;l<i;k+=2)
-        printf("\n");
+        for(int k=0,l=0;l<i;k+=2){
+        printf("\n");}
     }
     return 0;
 }
