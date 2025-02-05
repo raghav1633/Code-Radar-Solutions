@@ -20,10 +20,10 @@ int main() {
         }
         else{
             printf("%d",31);}
-            }
+     }
     else{
             printf("Invalid month");
         }
-    }
+    
     return 0;
 }
