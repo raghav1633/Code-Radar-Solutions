@@ -1,26 +1,29 @@
 #include <stdio.h>
-
 int main() {
-    int a, b;
-    char opera;
+   int a,b;
+   char opera;
+   scanf("%d %d %c",&a,&b,&opera);
+   if(opera=='+'){
+    printf("%d",a+b);
+   }
+   else if(opera=='-'){
+        printf("%d",a-b);
 
-    // The key change is adding a space before %c in scanf
-    scanf("%d %d %c", &a, &b, &opera); 
+   }
+   else if(opera=='*'){
+        printf("%d",a*b);
 
-    if (opera == '+') {
-        printf("%d", a + b);
-    } else if (opera == '-') {
-        printf("%d", a - b);
-    } else if (opera == '*') {
-        printf("%d", a * b);
-    } else if (opera == '/') {
-        if (b == 0) {  // Important: Check for division by zero!
-            printf("Error: Division by zero\n");
-        } else {
-            printf("%d", a / b);
+   }
+   else if(opera=='/'){
+        if(b==0){
+            printf("error");
         }
-    } else {
-        printf("Error: Invalid operator\n");
-    }
+        else{
+        printf("%d",a/b);}
+
+   }
+   else{
+    printf("error");
+   }
     return 0;
 }
