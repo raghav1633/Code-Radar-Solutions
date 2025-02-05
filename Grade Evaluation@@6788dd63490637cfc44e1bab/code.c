@@ -4,13 +4,13 @@ int main() {
    char g;
    scanf("%c",&g);
     switch(g){
-        case "A";
+        case "A":
         printf("Excellent");
         break;
-        case "B";
+        case "B":
         printf("Good");
         break;
-        case "C";
+        case "C":
         printf("Average");
         break;
         case "D":
