@@ -8,9 +8,9 @@ int main() {
             printf(" ");
         }
         // for stars
-        for(int k=0,l=0;l<(n-i+1);k+=2,l++){
+        for(int k=0;k<(n-i+1)+2;k++){
             printf("*");
-         }
+        }
      printf("\n");
     }
     return 0;
