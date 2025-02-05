@@ -10,7 +10,7 @@ int main() {
         case'G':
         printf("Go");
         break;
-        case 'Y';
+        case 'Y':
         printf("Slow Down");
         break;
         default:
