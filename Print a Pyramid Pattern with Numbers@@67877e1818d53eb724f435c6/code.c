@@ -7,10 +7,10 @@ int main() {
     for(int i=1;i<=n;i++){
         //for spacing
         if(i%2){
-            su=(n-i+1)/2;
+            su=(n-i+1)/2+1;
         }
         else{
-            su=(n-i+1)/2+1;
+            su=(n-i+1)/2+2;
         }
         for(int j=1;j<=su;j++){
             printf(" ");
