@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         //for spacing
-        for(int j=1;j<=(n-i)/2;j++){
+        for(int j=1;j<=n/2-i;j++){
             printf("a");
         }
         for(int k=1;k<=i;k++){
