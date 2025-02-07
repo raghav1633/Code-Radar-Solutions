@@ -11,8 +11,8 @@ int main() {
             pr=pr==0?1:0;
         }
         if(our==0){
-            pr==1;
-            our==1;
+            pr=1;
+            our=1;
         }
         else{
             pr=0;our=0;
