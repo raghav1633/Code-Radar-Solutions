@@ -9,6 +9,8 @@ int main() {
             printf("%d ",pr);
             pr=pr==0?1:0;
         }
+         pr=pr==0?1:0;
+
     printf("\n");}
     return 0;
 }
