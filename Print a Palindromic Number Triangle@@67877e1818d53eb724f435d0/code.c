@@ -2,30 +2,22 @@
 #include <stdio.h>
 
 int main() {
-  int n, i, j, k;
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        //spacing
+        for(int j=1;j<=n-i;j++){
+            printf(" ");
+        };
+        //left print
+        for(int j=1;j<=i;j++){
+            printf("%d",j);
+        }
+        //right print
+        for(int j=i;j>=1;j--){
+            printf("%d",j);
+        }
+    }
 
-    scanf("%d", &n);
-
-      for (i = 1; i <= n; i++) {
-          // Print leading spaces
-              for (j = 1; j <= n - i; j++) {
-                    printf(" ");
-                        }
-
-                            // Print increasing numbers
-                                for (k = 1; k <= i; k++) {
-                                      printf("%d", k);
-                                          }
-
-                                              // Print decreasing numbers
-                                                  for (k = i - 1; k >= 1; k--) {
-                                                        printf("%d", k);
-                                                            }
-
-                                                                printf("\n");
-                                                                  }
-
-                                                                    return 0;
-                                                                    }
-
+}
                                                                     
