@@ -8,6 +8,7 @@ int main() {
         int a=scanf("%d",&a);
         arr[i]=a;
     }
-    
+    int k=scanf("%d",&k);
+    printf("%d",k);
     return 0;
 }
