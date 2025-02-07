@@ -15,7 +15,7 @@ int main() {
             our==1;
         }
         else{
-            pr=0;our=1;
+            pr=0;our=0;
         }
     printf("\n");}
     return 0;
