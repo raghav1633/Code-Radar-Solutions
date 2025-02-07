@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-     int n;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -13,7 +13,7 @@ int main() {
         mx=mx<arr[i]?arr[i]:mx;
         min=min<arr[i]?min:arr[i];
     }
-    printf("%d %d",min,max);
+    printf("%d %d",min,mx);
     }
     return 0;
 }
