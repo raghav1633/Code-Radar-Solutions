@@ -8,7 +8,7 @@ for(int i=0;i<N;i++){
     scanf("%d ",&a);
     arr[i]=a;
 }
-int rs[N]={0}
+int rs[N]={0};
 for(int j=0;j<N;j++){
     rs[arr[i]]++;
 }
