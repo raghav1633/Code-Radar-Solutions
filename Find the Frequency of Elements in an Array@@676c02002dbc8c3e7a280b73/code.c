@@ -13,13 +13,12 @@ int rs[N];
 int M=0;
 for(int i=0;i<N;i++){
     int cou=0;
-    M+=1;
+    M+=2;
     for(int j=0;j<N;j++){
         if(arr[i]==arr[j]){
             cou+=1;
             M-=1;
-            printf("ijl %d",M);
-        }
+        }     
         rs[i]=cou;
     }
 }
