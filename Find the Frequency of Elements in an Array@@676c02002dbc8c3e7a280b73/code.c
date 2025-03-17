@@ -14,6 +14,7 @@ for(int i=0;i<N;i++){
         if(arr[i]==arr[j]){
             cou+=1;
         }
+        rs[i]=cou;
     }
 }
 for(int i=0;i<N;i++){
