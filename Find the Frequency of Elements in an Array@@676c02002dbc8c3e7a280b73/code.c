@@ -11,13 +11,17 @@ for(int i=0;i<N;i++){
 
 int rs[N];
 int M=N;
+int ls[N];
 for(int i=0;i<N;i++){
     int cou=1;
     for(int j=i+1;j<N;j++){
         if(arr[i]==arr[j]){
             cou+=1;
             M-=1;
-        }     
+        }
+        else{
+            ls[i]=arr[i];
+        }    
         rs[i]=cou;
     }
 }
