@@ -10,17 +10,18 @@ for(int i=0;i<N;i++){
 }
 
 int rs[N];
+int M=N;
 for(int i=0;i<N;i++){
     int cou=0;
     for(int j=0;j<N;j++){
         if(arr[i]==arr[j]){
             cou+=1;
-            N-=1;
+            M-=1;
         }
         rs[i]=cou;
     }
 }
-for(int i=0;i<=N;i++){
+for(int i=0;i<M;i++){
     printf("%d %d\n",arr[i],rs[i]);
 }
 return 0;
