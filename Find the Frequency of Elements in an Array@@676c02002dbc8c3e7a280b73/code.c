@@ -13,8 +13,8 @@ for(int j=0;j<N;j++){
     rs[arr[j]]++;
 }
 int i=0;
-while rs[i]!=0:
-    printf("%d %d\n",arr[i],rs[i]);
+while(rs[i]!=0){
+    printf("%d %d\n",arr[i],rs[i]);}
     i++;
 return 0;
 }
