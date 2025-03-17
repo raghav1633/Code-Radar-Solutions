@@ -8,13 +8,18 @@ for(int i=0;i<N;i++){
     scanf("%d ",&a);
     arr[i]=a;
 }
-int rs[N]={0};
-for(int j=0;j<N;j++){
-    rs[arr[j]]++;
+int rs[N];
+for(int i=0;i<N;i++){
+    rs[i]=0;
 }
-int i=0;
-while(rs[i]!=0){
-    printf("%d %d\n",arr[i],rs[i]);}
-    i++;
+for(int i=0;i<N;i++){
+    if(rs[i]==1)continue;
+    int count=1;
+    for(int j=i+1;j<N;j++){
+        if(arr[i]==arr[j]){count+=1;res[j]=1;}
+    }
+    printf("%d %d",arr[i],count);
+}
+
 return 0;
 }
