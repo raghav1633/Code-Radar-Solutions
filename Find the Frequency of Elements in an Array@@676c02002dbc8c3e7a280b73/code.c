@@ -10,7 +10,7 @@ for(int i=0;i<N;i++){
 }
 int rs[N];
 for(int j=0;j<N;j++){
-    rs[arr[i]]++;
+    rs[arr[j]]++;
 }
 int i=0;
 while rs[i]!=0:
