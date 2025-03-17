@@ -7,6 +7,9 @@ for(int i=0;i<N;i++){
     int a;
     arr[i]=scanf("%d ",&a);
 }
+for(int i=0;i<N;i++){
+    printf("%d",arr[i]);
+}
 int rs[N];
 for(int i=0;i<N;i++){
     int cou=1;
