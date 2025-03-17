@@ -10,10 +10,10 @@ for(int i=0;i<N;i++){
 }
 
 int rs[N];
-int M=0;
+int M=N;
 for(int i=0;i<N;i++){
     int cou=0;
-    M+=2;
+    M+=1
     for(int j=0;j<N;j++){
         if(arr[i]==arr[j]){
             cou+=1;
