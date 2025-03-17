@@ -13,7 +13,7 @@ int rs[N];
 int M=0;
 for(int i=0;i<N;i++){
     int cou=1;
-    for(int j=1;j<N;j++){
+    for(int j=0;j<N;j++){
         printf("%d %d %d\n",arr[i],arr[j],cou);
         if(arr[i]==arr[j]){
             cou+=1;
