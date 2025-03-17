@@ -4,7 +4,8 @@ int N;
 scanf("%d",&N);
 int arr[N];
 for(int i=0;i<N;i++){
-   int a=scanf("%d ",&a);
+   int a;
+   scanf("%d ",&a);
    arr[i]=a;
 
 }
