@@ -14,6 +14,7 @@ int M=0;
 for(int i=0;i<N;i++){
     int cou=1;
     for(int j=1;j<N;j++){
+        printf("%d %d\n",arr[i],arr[j]);
         if(arr[i]==arr[j]){
             cou+=1;
         }     
