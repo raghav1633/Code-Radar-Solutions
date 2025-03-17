@@ -10,10 +10,10 @@ for(int i=0;i<N;i++){
 }
 
 int rs[N];
-int M=N;
-printf("Here is %d",M);
+int M=0;
 for(int i=0;i<N;i++){
     int cou=0;
+    M+=1;
     for(int j=0;j<N;j++){
         if(arr[i]==arr[j]){
             cou+=1;
