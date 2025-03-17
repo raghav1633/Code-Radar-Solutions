@@ -11,7 +11,7 @@ for(int i=0;i<N;i++){
 
 int rs[N];
 for(int i=0;i<N;i++){
-    int cou=1;
+    int cou=0;
     for(int j=0;j<N;j++){
         if(arr[i]==arr[j]){
             cou+=1;
