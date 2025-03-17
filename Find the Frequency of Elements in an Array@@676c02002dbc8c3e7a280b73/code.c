@@ -21,7 +21,7 @@ for(int i=0;i<N;i++){
         rs[i]=cou;
     }
 }
-for(int i=0;i<M;i++){
+for(int i=0;i<N;i++){
     printf("%d %d\n",arr[i],rs[i]);
 }
 return 0;
