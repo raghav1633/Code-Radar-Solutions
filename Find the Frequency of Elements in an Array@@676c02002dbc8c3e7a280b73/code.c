@@ -13,12 +13,13 @@ for(int i=0;i<N;i++){
     rs[i]=0;
 }
 for(int i=0;i<N;i++){
-    rs[arr[i]]++;
+    if(rs[i]==1)continue;
+    int count=1;
+    for(int j=i+1;j<N;j++){
+        if(arr[i]==arr[j]){count+=1;res[j]=1;}
+    }
+    printf("%d %d",arr[i],count);
 }
-for(int i=0;i<N;i++){
-    printf("%d\n",arr[i]);
-}
-
 
 return 0;
 }
