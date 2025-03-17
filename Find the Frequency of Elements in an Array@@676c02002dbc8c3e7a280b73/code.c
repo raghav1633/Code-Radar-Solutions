@@ -16,7 +16,7 @@ for(int i=0;i<N;i++){
     if(rs[i]==1)continue;
     int count=1;
     for(int j=i+1;j<N;j++){
-        if(arr[i]==arr[j]){count+=1;res[j]=1;}
+        if(arr[i]==arr[j]){count+=1;rs[j]=1;}
     }
     printf("%d %d",arr[i],count);
 }
