@@ -16,7 +16,7 @@ for(int i=0;i<N;i++){
     rs[arr[i]]++;
 }
 for(int i=0;i<N;i++){
-    printf("%d\n",arr[i],rs[i]);
+    printf("%d\n",rs[i]);
 }
 
 
