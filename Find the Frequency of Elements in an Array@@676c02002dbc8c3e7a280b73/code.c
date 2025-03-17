@@ -18,6 +18,7 @@ for(int i=0;i<N;i++){
         if(arr[i]==arr[j]){
             cou+=1;
             M-=1;
+            printf("%d",M);
         }
         rs[i]=cou;
     }
