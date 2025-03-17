@@ -11,6 +11,7 @@ for(int i=0;i<N;i++){
 
 int rs[N];
 int M=N;
+printf("Here is %d",M);
 for(int i=0;i<N;i++){
     int cou=0;
     for(int j=0;j<N;j++){
@@ -21,7 +22,6 @@ for(int i=0;i<N;i++){
         rs[i]=cou;
     }
 }
-printf("Here is %d",M);
 for(int i=0;i<M;i++){
     printf("%d %d\n",arr[i],rs[i]);
 }
