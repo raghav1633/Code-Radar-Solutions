@@ -10,6 +10,7 @@ int finder(int arr[],int N,int n){
 int main(){
     int N;
     scanf("%d",&N);
+    int arr[N];
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
     int sm=arr[0];
     for(int i=1;i<N;i++){
@@ -22,5 +23,5 @@ int main(){
     }
     printf("%d",sm);
     
-    
+    return 0;
 }
