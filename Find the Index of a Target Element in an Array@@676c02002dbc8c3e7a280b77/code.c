@@ -9,7 +9,8 @@ int main(){
     for(int i=0;i<N;i++)scanf("%d ",&arr[i]);
     for(int i=0;i<N;i++){
         if(arr[i]==tar){
-            printf("%d",i);return 0;
+            printf("%d",i);
+            return 0;
         }
     }
     printf("-1");
