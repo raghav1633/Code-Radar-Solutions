@@ -18,7 +18,7 @@ int main(){
     for(int i=2;i<N;i++){
         if(arr[i]>fg){
             sg=fg;
-            fg=arr[if];
+            fg=arr[i];
         }
     }
     printf("%d",sg);
