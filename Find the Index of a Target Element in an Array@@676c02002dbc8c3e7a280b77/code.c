@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<N;i++)scanf("%d ",&arr[i]);
     for(int i=0;i<N;i++){
         if(arr[i]==tar){
-            int a=i
+            int a=i;
             printf("%d",a);
             return 0;
         }
