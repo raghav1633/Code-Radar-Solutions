@@ -8,8 +8,10 @@ int main(){
     }
     if(N<2)return -1;
     int fg,sg;
-    if(arr[0]>arr[1]){fg=arr[0];sg=arr[1]}
-    else if(arr[1]>arr[0]){fg=arr[1];sg=arr[0]}
+    if(arr[0]>arr[1]){
+        fg=arr[0];
+    sg=arr[1];}
+    else if(arr[1]>arr[0]){fg=arr[1];sg=arr[0];}
     else{
         fg=arr[0]
     }
