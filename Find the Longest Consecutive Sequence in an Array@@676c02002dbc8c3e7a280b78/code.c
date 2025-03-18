@@ -16,9 +16,10 @@ int main(){
     int mx=0;
     for(int i=0;i<N;i++)scanf("%d ",&arr[i]);
     for(int i=0;i<N;i++){
-        if(!finder(arr,N,arr[i]-1)){
-            int cou=1;
+        int cou=1;
             int cn=i;
+        if(!finder(arr,N,arr[i]-1)){
+            
             while(finder(arr,N,cn+1)){
                 cn++;cou++;
             }
