@@ -16,15 +16,14 @@ int main(){
     int mx=0;
     for(int i=0;i<N;i++)scanf("%d ",&arr[i]);
     for(int i=0;i<N;i++){
-        int cou=1;
+            int cou=1;
             int cn=i;
         if(!finder(arr,N,arr[i]-1)){
-            
             while(finder(arr,N,cn+1)){
                 cn++;cou++;
             }
         }
-        mx=mx>cn?mx:cn;
+        mx=mx>cou?mx:cou;
     }
     printf("%d",mx);
 
