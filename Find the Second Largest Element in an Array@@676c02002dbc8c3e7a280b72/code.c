@@ -19,7 +19,7 @@ int main(){
             fg=arr[i];
         }
     }
-    if(sg==fg){printf("%d",-1)}
-    else{printf("%d",sg)}
+    if(sg==fg){printf("%d",-1);}
+    else{printf("%d",sg);}
     return 0;
 }
