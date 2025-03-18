@@ -13,7 +13,7 @@ int main(){
     sg=arr[1];}
     else if(arr[1]>arr[0]){fg=arr[1];sg=arr[0];}
     else{
-        fg=arr[0]
+        fg=arr[0];
     }
     for(int i=2;i<N;i++){
         if(arr[i]>fg){
