@@ -2,7 +2,7 @@
 int main(){
     int N;
     scanf("%d",&N);
-        if(N<2){printf("%d",-1);return 0}
+        if(N<2){printf("%d",-1);return 0;}
     int arr[N];
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
