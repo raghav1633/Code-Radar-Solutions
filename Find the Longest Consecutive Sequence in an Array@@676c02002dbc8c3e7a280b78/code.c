@@ -19,7 +19,7 @@ int main(){
         if(!finder(arr,N,arr[i]-1)){
             int cou=1;
             int cn=i;
-            while(arr,N,finder(cn+1)){
+            while(finder(arr,N,cn+1)){
                 cn++;cou++;
             }
         }
