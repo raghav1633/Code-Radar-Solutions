@@ -2,11 +2,11 @@
 int main(){
     int N;
     scanf("%d",&N);
+        if(N<2)return -1;
     int arr[N];
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
-    if(N<2)return -1;
     int fg,sg;
     if(arr[0]>arr[1]){
         fg=arr[0];
