@@ -12,15 +12,14 @@ int main(){
         fg=arr[0];
     sg=arr[1];}
     else if(arr[1]>arr[0]){fg=arr[1];sg=arr[0];}
-    else{
-        fg=arr[0];
-    }
+
     for(int i=2;i<N;i++){
         if(arr[i]>fg){
             sg=fg;
             fg=arr[i];
         }
     }
-    printf("%d",sg);
+    if(sg==fg){printf("%d",-1)}
+    else{printf("%d",sg)}
     return 0;
 }
