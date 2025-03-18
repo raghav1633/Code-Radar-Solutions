@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<N;i++)vis[i]=0;
     for(int i=0;i<N;i++){
         int count=1;
-        vis[i]=1
+        vis[i]=1;
         for(int j=i+1;j<N;j++){
             if(arr[i]==arr[j])count++;
         }
