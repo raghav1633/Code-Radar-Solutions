@@ -1,33 +1,24 @@
-
 #include <stdio.h>
-
-int main() {
-    int n;
-        scanf("%d", &n);
-            int arr[n];
-                for (int i = 0; i < n; i++) {
-                        scanf("%d", &arr[i]);
-                            }
-                                if (n < 2) {
-                                        printf("-1\n");
-                                                return 0;
-                                                    }
-                                                        int largest = arr[0];
-                                                            int secondLargest = -1;
-                                                                for (int i = 1; i < n; i++) {
-                                                                        if (arr[i] > largest) {
-                                                                                    secondLargest = largest;
-                                                                                                largest = arr[i];
-                                                                                                        } else if (arr[i] < largest && arr[i] > secondLargest) {
-                                                                                                                    secondLargest = arr[i];
-                                                                                                                            }
-                                                                                                                                }
-                                                                                                                                    if (secondLargest == -1) {
-                                                                                                                                            printf("-1\n");
-                                                                                                                                                } else {
-                                                                                                                                                        printf("%d\n", secondLargest);
-                                                                                                                                                            }
-                                                                                                                                                                return 0;
-                                                                                                                                                                }
-
-                                                                                                                                                                
+int main(){
+    int N;
+    scanf("%d",&N);
+    int arr[N];
+    for(int i=0;i<N;i++){
+        scanf("%d ",&arr[i]);
+    }
+    if(N<2)return -1;
+    int fg,sg;
+    if(arr[0]>arr[1]){fg=arr[0];sg=arr[1]}
+    else if(arr[1]>arr[0]){fg=arr[1];sg=arr[0]}
+    else{
+        fg=arr[0]
+    }
+    for(int i=2;i<N;i++){
+        if(arr[i]>fg){
+            sg=fg;
+            fg=arr[if];
+        }
+    }
+    printf("%d",sg);
+    return 0;
+}
