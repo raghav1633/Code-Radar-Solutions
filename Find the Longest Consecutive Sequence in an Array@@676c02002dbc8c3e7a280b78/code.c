@@ -17,7 +17,7 @@ int main(){
     for(int i=0;i<N;i++)scanf("%d ",&arr[i]);
     for(int i=0;i<N;i++){
         if(!finder(arr,N,arr[i]-1)){
-            cou=1;cn=i;
+            int cou=1;cn=i;
             while(arr,N,finder(cn+1)){
                 cn++;cou++
             }
