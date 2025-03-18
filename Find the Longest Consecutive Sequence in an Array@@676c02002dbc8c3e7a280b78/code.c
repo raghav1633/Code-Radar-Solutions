@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int finder(n){
+int finder(int n){
     for(int i=0;i<N;i++){
         if(arr[i]==n){
             return 1;
