@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int finder(int n){
+int finder(int arr[],int size,int n){
     for(int i=0;i<N;i++){
         if(arr[i]==n){
             return 1;
@@ -16,9 +16,9 @@ int main(){
     int mx=0;
     for(int i=0;i<N;i++)scanf("%d ",&arr[i]);
     for(int i=0;i<N;i++){
-        if(!finder(arr[i]-1)){
+        if(!finder(arr,N,arr[i]-1)){
             cou=1;cn=i;
-            while(finder(cn+1)){
+            while(arr,N,finder(cn+1)){
                 cn++;cou++
             }
         }
