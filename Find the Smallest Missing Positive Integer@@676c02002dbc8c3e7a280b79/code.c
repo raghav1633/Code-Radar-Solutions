@@ -12,7 +12,11 @@ int main(){
     int arr[N];
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
     int sm;
-    for(int i=0;i>N;i++){if(arr[i]>=0){sm=arr[i];break;}}
+    for(int i=0;i>N;i++){
+        if(arr[i]>=0){
+            printf("%d\n",arr[i]);
+            sm=arr[i];break;}
+    }
         printf("Smallest pos is %d\n",sm);
 
     for(int i=1;i<N;i++){
