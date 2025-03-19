@@ -18,6 +18,7 @@ int main(){
             sm=arr[i];
         }
     }
+    printf("Smallest pos is %d\n",sm);
     while(finder(arr,N,sm+1)){
         sm++;
     }
