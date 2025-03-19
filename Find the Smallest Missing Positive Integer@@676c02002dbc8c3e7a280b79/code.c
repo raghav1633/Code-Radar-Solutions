@@ -17,7 +17,7 @@ int main(){
             sm=arr[i];
         }
     }
-    while(finder(arr;N;sm+1)){
+    while(finder(arr,N,sm+1)){
         sm++;
     }
     printf("%d",sm);
