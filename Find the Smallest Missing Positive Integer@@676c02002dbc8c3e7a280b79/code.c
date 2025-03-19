@@ -16,7 +16,7 @@ int main(){
         if(great<arr[i])great=arr[i];
     }
     if(great<=0){printf("%d",1);return 0;}
-    for(int i=0;i<=great+1;i++){
+    for(int i=1;i<=great+1;i++){
         if(!find(arr,N,i)){
             printf("%d",i);
             return 0;
