@@ -11,7 +11,8 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
-    int sm=arr[0];
+    int sm;
+    for(int i=0;i>N;i++){if(arr[i]=>0){sm=arr[i];break;}
     for(int i=1;i<N;i++){
         if(arr[i]>0 && arr[i]<sm){
             sm=arr[i];
