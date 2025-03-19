@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<N;i++){
         if(arr[i]==0){
             while(arr[R]==0){
-                R--
+                R--;
             }
             temp=arr[R];arr[R]=arr[i];arr[i]=temp;
 
