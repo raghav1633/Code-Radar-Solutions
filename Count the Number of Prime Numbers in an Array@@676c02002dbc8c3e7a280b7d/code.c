@@ -10,7 +10,6 @@ int primeChecker(int n){
 int main(){
     int N;
     scanf("%d",&N);
-    int N;
     int count;
     for(int i=0;i<N;i++){
         int a;
