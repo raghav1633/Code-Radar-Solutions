@@ -8,12 +8,12 @@ int main(){
     int L=0,R=N-1;
     while(L<R){
         if(arr[L]!=arr[R]){
-            printf("No");
+            printf("NO");
             return 0;
         }
         L++;R--;
     }
-    printf("Yes");
+    printf("YES");
 
     return 0;
 }
