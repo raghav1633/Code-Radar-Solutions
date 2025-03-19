@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
-    L=0;R=N-1;
+    int L=0,R=N-1;
     while(L<R){
         if(arr[L]!=arr[R]){
             printf("No");
