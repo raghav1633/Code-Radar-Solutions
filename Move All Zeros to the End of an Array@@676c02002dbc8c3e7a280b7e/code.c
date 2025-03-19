@@ -9,7 +9,7 @@ int main(){
     int pos=0;
     for(int i=0;i<N;i++){
         if(arr[i]!=0){
-            temp=arr[i];
+            int temp=arr[i];
             arr[i]=arr[pos];
             arr[pos]=temp;
             pos++;
