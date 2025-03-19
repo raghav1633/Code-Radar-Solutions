@@ -13,12 +13,13 @@ int main(){
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
     int sm;
     for(int i=0;i>N;i++){if(arr[i]>=0){sm=arr[i];break;}}
+        printf("Smallest pos is %d\n",sm);
+
     for(int i=1;i<N;i++){
         if(arr[i]>0 && arr[i]<sm){
             sm=arr[i];
         }
     }
-    printf("Smallest pos is %d\n",sm);
     while(finder(arr,N,sm+1)){
         sm++;
     }
