@@ -11,7 +11,7 @@ int main(){
             while(arr[R]==0){
                 R--;
             }
-            temp=arr[R];arr[R]=arr[i];arr[i]=temp;
+            int temp=arr[R];arr[R]=arr[i];arr[i]=temp;
 
         }
 
