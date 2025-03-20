@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
     int fs=arr[0],ss=-1;
     if(arr[0]<arr[1]){ss=arr[1];}
-    for(int i=0;i<N;i++){
+    for(int i=1;i<N;i++){
         if(arr[i]<fs){
             ss=fs;
             fs=arr[i];
