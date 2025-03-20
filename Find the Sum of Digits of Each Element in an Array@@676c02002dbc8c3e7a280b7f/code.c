@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int calc(int n){
-    int sm=0
+    int sm=0;
     while(n!=0){
         sm+=n%10;n/=10;
     }
