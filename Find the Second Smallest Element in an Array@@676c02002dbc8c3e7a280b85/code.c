@@ -7,9 +7,9 @@ int main(){
     int fs=arr[0],ss=-1;
     if(arr[0]<arr[1]){sg=arr[1];}
     for(int i=0;i<N;i++){
-        if(arr[i]<fg){
-            sg=fg;
-            fg=arr[i];
+        if(arr[i]<fs){
+            ss=fs;
+            fs=arr[i];
         }
     }
     printf("%d",sg);
