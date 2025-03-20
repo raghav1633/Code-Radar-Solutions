@@ -8,7 +8,7 @@ int main(){
     
     for(int i=0;i<N;i++){
         int gr=arr[0];
-        for(int j=i+1;i<N;j++){
+        for(int j=i+1;j<N;j++){
             gr=gr>arr[j]?gr:arr[j];
         }
         arr[i]=gr;
