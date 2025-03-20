@@ -7,8 +7,8 @@ int main(){
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
     
     for(int i=0;i<N;i++){
-        int gr=arr[i];
-        for(int j=i+1;j<N;j++){
+        int gr=arr[i+1];
+        for(int j=i+2;j<N;j++){
             gr=gr>arr[j]?gr:arr[j];
         }
         arr[i]=gr;
