@@ -16,6 +16,7 @@ int main(){
             fs=arr[i];
         }
     }
+    if(fg==sg){printf("%d",-1);return 0;}
     printf("%d",ss);
     return 0;
 }
