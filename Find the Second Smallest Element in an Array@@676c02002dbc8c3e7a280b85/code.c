@@ -15,6 +15,9 @@ int main(){
             ss=fs;
             fs=arr[i];
         }
+        else if(arr[i]<ss){
+            ss=arr[i];
+        }
     }
     if(fs==ss){printf("%d",-1);return 0;}
     printf("%d",ss);
