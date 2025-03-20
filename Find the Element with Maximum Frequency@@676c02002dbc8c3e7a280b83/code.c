@@ -13,10 +13,13 @@ int main(){
         }
         counts[i]=count;
     }
-    int mx=0;
+    int mx=0,ind=0;
     for(int i=0;i<N;i++){
-        mx=mx>counts[i]?mx:counts[i];
+        if(mx<counts[i]){
+            mx=counts[i];
+            ind=i;
+        }
     }
-    printf("%d",arr[mx]);
+    printf("%d",arr[i]);
     return 0;
 }
