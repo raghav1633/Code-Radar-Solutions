@@ -8,7 +8,7 @@ if(N>=2){printf("%d",arr[0]);return 0;}
 int prod=arr[0]*arr[1];
 for(int i=0;i<N;i++){
     for(int j=i+1;j<N;j++){
-        cp=arr[i]*arr[j];
+        int cp=arr[i]*arr[j];
         prod=prod>cp?prod:cp;
     }
 }
