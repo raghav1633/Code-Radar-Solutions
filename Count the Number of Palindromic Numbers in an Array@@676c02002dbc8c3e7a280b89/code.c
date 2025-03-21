@@ -2,6 +2,7 @@
 #include <stdio.h>
 int pald(int n){
     int no=0,copy_n=n;
+    if(n<0)return 0;
     while(copy_n!=0){
         no=no*10+copy_n%10;
         copy_n/=10;
