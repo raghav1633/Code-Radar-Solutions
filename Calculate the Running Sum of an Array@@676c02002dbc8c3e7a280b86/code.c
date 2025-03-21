@@ -5,7 +5,7 @@ int N;
 scanf("%d",&N);int arr[N];
 for(int i=0;i<N;i++)scanf("%d",&arr[i]);
 int sum=0;
-for(int i=0;i<N+;i++){
+for(int i=0;i<N;i++){
     sum+=arr[i];
     arr[i]=sum;
 }
