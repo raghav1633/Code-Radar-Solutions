@@ -8,7 +8,7 @@ int main(){
         for(int j=i+1;j<N;j++){
             if(arr[i]<arr[j]){leader=0;break;}
         }
-        if(leader)printf("%d",arr[i]);
+        if(leader)printf("%d ",arr[i]);
     }
     return 0;
 }
