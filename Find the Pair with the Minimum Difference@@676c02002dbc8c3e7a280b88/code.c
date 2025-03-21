@@ -8,7 +8,7 @@ int main(){
     int n1=arr[0],n2=arr[1],diff=abs(arr[1]-arr[0]);
     for(int i=1;i<N;i++){
         for(int j=i+1;j<N;j++){
-            cd=abs(arr[i]-arr[j]);
+            int cd=abs(arr[i]-arr[j]);
             if(cd<diff){
                 n1=arr[i];n2=arr[j];diff=cd;
             }
