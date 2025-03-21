@@ -8,7 +8,7 @@ int main(){
     //finding the first even number
     int gr=-1;int ind=0;
     for(int i=0;i<N;i++)if(arr[i]%2==0){gr=arr[i];ind=i;break;}
-    for(ind;i<N;ind++)if(arr[i]%2==0)gr=gr>arr[i]?gr:arr[i];
+    for(ind;ind<N;ind++)if(arr[i]%2==0)gr=gr>arr[i]?gr:arr[i];
     printf("%d",gr);
     return 0;
 }
