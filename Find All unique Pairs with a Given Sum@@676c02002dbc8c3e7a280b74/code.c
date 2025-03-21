@@ -13,7 +13,7 @@ int main(){
             if(arr[i]+arr[j]==tar){
                 if(!(vis[i]&&vis[j])){
                     vis[i]=1;vis[j]=1;
-                    printf("%d %d",arr[i],arr[j]);
+                    printf("%d %d\n",arr[i],arr[j]);
                 }
             }
         }
