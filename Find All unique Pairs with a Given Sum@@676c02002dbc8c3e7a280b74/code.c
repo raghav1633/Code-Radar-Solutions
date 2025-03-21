@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<N;i++){
         for(int j=i+1;j<N;j++){
             if(arr[i]+arr[j]==tar){
-                if(!(vis[i]&&vis[j])){
+                if(!(vis[arr[i]]&&vis[arr[j]])){
                     vis[i]=1;vis[j]=1;
                     printf("%d %d\n",arr[i],arr[j]);
                 }
