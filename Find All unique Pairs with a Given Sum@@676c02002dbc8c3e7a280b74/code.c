@@ -6,16 +6,13 @@ int finder(int arr[],int N,int n){
 }
 int main(){
     int N;scanf("%d",&N);int arr[N];for(int i=0;i<N;i++)scanf("%d",&arr[i]);int tar;scanf("%d",&tar);
-    int vis[N];
-    for(int i=0;i<N;i++)vis[i]=0;
+    int arr1[N],arr2[N];
     for(int i=0;i<N;i++){
         for(int j=i+1;j<N;j++){
             if(arr[i]+arr[j]==tar){
-                if(!(vis[arr[i]]&&vis[arr[j]])){
-                    vis[i]=1;vis[j]=1;
-                    printf("%d %d\n",arr[i],arr[j]);
-                }
-            }
+                if(!(finder(arr1,N,arr[i]) && finder(arr2,N,arr[j]))){
+                    arr1[i]=arr[i];arr2[i]=arr[j];
+                printf("%d %d\n",arr[i],arr[j]);}}
         }
     }
 
