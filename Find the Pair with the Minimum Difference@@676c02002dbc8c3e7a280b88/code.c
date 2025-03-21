@@ -9,9 +9,15 @@ int main(){
     for(int i=1;i<N;i++){
         for(int j=i+1;j<N;j++){
             int cd=abs(arr[i]-arr[j]);
-            if(cd<diff){
-                n1=arr[i];n2=arr[j];diff=cd;
+           if(cd==diff){
+            if(arr[i]<n1 || arr[j]<n2){
+                n1=arr[i];n2=arr[j];
             }
+           }
+           else if(cd<diff){
+            n1=arr[i];n2=arr[j];
+            diff=cd;
+           }
         }
     }
     printf("%d %d",n1>n2?n2,n1:n1,n2);
