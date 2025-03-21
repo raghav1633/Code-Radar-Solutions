@@ -12,7 +12,7 @@ int main(){
         for(int j=i+1;j<N;j++){
             if(arr[i]+arr[j]==tar){
                 if(!finder(arr1,N,arr[i]) && !finder(arr2,N,arr[j])){
-                    arr1[i]=arr[i];arr2[i]=arr[j];
+                    arr1[j]=arr[i];arr2[j]=arr[j];
                 printf("%d %d\n",arr[i],arr[j]);}}
         }
     }
