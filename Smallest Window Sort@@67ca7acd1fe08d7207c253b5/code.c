@@ -1,14 +1,14 @@
 // Your code here...
 #include <stdio.h>
 int findUnsortedSubarray(int arr[],int n){
-    int mx=0;int cn=0;int i=0;
+    int min=n;int cn=0;int i=0;
     while(i<n-1){
         cn=0;
         while(arr[i]>arr[i+1]){
-            cn++;i++
+            cn++;i++;
         }
-        mx=mx>cn?mx:cn;
+        min=min>cn?cn:min;
         i++;
     }
-    return mx;
+    return min;
 }
