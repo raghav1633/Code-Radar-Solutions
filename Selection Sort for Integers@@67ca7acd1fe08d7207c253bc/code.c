@@ -8,7 +8,7 @@ int selectionSort(int arr[],int n){
     for(int i=0;i<n;i++){
         sm=arr[i];
         for(int j=i+1;j<n;j++){
-            if(sm<arr[j]){
+            if(sm>arr[j]){
                 sm=arr[j];
             }
         }
