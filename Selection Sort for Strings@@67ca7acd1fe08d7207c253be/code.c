@@ -1,17 +1,14 @@
-void printArray(char arr[],int n){
-    for(int i=0;i<n;i++)printf("%c ",arr[i]);
-}
-void selectionSort(char arr[],int n){
+#include <stdio.h>
+#include <string.h>
+void selectionSort(char arr[][100],int n){
     int temp,k;
     for(int i=0;i<n-1;i++){
-        int sm=arr[i];k=i;
+        k=i;
         for(int j=i+1;j<n;j++){
-            if(sm>arr[j]){
-                sm=arr[j];k=j;
-            }
+            if(strcmp(arr[i],arr[j])>0)k=j;
         }
-        temp=arr[i];
-        arr[i]=arr[k];
-        arr[k]=temp;
+        strcpy(temp,arr[i]);
+        strcpy(arr[i],arr[k]);
+        strcpy(arr[k],temp);
     }
 }
