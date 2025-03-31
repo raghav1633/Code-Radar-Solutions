@@ -5,7 +5,7 @@ int printArray(int arr[],int n){
 }
 int selectionSort(int arr[],int n){
     int sm;int temp;int k;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         sm=arr[i];k=i;
         for(int j=i+1;j<n;j++){
             if(sm>arr[j]){
