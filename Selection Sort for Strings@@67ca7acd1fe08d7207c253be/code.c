@@ -4,7 +4,7 @@
 //     for(int i=0;i<n;i++)printf("%s\n",arr[i]);
 // }
 void selectionSort(char arr[][100],int n){
-    int temp,k;
+    char temp[100];int k;
     for(int i=0;i<n-1;i++){
         k=i;
         for(int j=i+1;j<n;j++){
