@@ -5,7 +5,6 @@ while(i<n){
     no_misses=arr[i]-num;
     for(int s=0;s<no_misses;s++){
         k--;num++;
-        printf("k %d , num %d\n",k,num);
         if(k==0){
             return num-1;
         }
@@ -13,6 +12,6 @@ while(i<n){
     num++;i++;
 }
 if(k>0){
-    return arr[n-1]-k;
+    return arr[n-1]+k;
 }
 }
