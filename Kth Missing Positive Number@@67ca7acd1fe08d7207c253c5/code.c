@@ -10,6 +10,7 @@ while(i<n){
             return 0;
         }
     }
+    printf("Value of i %d, value of k %d , value n %d",i,k,n);
     num++;i++;
 }
 }
