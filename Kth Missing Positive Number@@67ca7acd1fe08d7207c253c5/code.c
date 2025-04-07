@@ -5,6 +5,7 @@ while(i<n){
     no_misses=arr[i]-num;
     for(int s=0;s<no_misses;s++){
         k--;num++;
+            printf("Value of i %d, value of k %d , value num %d\n",i,k,num);
         if(k==0){
             printf("%d",num);
             return 0;
