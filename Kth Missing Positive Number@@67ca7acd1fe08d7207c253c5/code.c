@@ -5,7 +5,7 @@ while(i<n){
     no_misses=arr[i]-num;
     for(int s=0;s<no_misses;s++){
         k--;num++;
-        if(k==0){
+        if(k==-1){
             return num-1;
         }
     }
