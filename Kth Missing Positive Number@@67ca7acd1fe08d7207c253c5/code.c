@@ -10,6 +10,6 @@ while(i<n){
             return 0;
         }
     }
-    num++;i++;
+    num=arr[i]+1;i++;
 }
 }
