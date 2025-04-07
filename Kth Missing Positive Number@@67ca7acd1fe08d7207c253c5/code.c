@@ -6,7 +6,7 @@ while(i<n){
     for(int s=0;s<no_misses;s++){
         k--;num++;
         if(k==-1){
-            return num-1;
+            return num;
         }
     }
     num++;i++;
