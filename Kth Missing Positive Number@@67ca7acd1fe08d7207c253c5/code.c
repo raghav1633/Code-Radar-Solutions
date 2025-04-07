@@ -1,14 +1,15 @@
 // Your code here...
 int findKthMissing(int arr[],int n, int k){
-    for(int i=0;i<n-1;i++){
-        if((arr[i+1]-arr[i])>1){
-            int rs=arr[i+1]-arr[i];int num=arr[i];
-            while(rs>1 && k>0){
-                rs--;k--;
-                num++;
-            }
-            if(k==0)return num;
-           
+int n=0,i=0;
+while(i<n){
+    no_misses=arr[i]-n;
+    for(int s=0;s<no_misses;s++){
+        k--;n++;
+        if(k==-1){
+            printf("%d",n);
+            return 0;
         }
     }
+    n++;i++;
+}
 }
