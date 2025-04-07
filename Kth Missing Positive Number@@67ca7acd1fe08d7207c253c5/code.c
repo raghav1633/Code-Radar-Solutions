@@ -11,4 +11,7 @@ while(i<n){
     }
     num++;i++;
 }
+if(k>0){
+    return arr[n-1]-k;
+}
 }
